@@ -22,10 +22,12 @@ uint64_t fact(uint16_t n) {
   }
   return b;
 }
+
 double calcItem(double x, uint16_t n) {
   double a = pown(x, n) / fact(n);
   return a;
 }
+
 double expn(double x, uint16_t count) {
   double a = 1;
   int n = 1;
@@ -35,6 +37,7 @@ double expn(double x, uint16_t count) {
   }
   return a;
 }
+
 double sinn(double x, uint16_t count) {
   double a = 0;
   for (uint16_t i = 1; i <= count; i++) {
@@ -43,6 +46,7 @@ double sinn(double x, uint16_t count) {
   }
   return a;
 }
+
 double cosn(double x, uint16_t count) {
   double a = 0;
   for (uint16_t i = 1; i <= count; i++) {
